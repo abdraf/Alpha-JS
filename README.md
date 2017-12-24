@@ -1,2 +1,2 @@
 # Alpha-JS
-A front-end framework with KISS in mind
+A front-end framework with KISS in mind. Alpha JS is a page-centric and event-driven way to build web apps. We believe this is intuitive and simpler. After all, any web app consists of 'pages' that display relevant data and allow the user to perform relevant operations. Your web app is split into global and page (local) spaces. The global space defines global events and holds the state of the entire app. The local or page space is like a scratchpad for your page and its components. Components don't have a state but they can modify the global or page states. Local or page state is destroyed once the page changes. Components listen for events and can fire events when needed. 
